@@ -1,0 +1,26 @@
+{
+  "name": "linttool",
+  "version": "0.0.0",
+  "description": "linttool",
+  "keywords": [
+    "lint",
+    "task"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "files": [
+    "linttool.js"
+  ],
+  "main": "linttool.js",
+  "bin": {
+    "lt": "./bin/lt.js"
+  },
+  "repository": "https://github.com/zertosh/linttool",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "^8.0.1"
+  }
+}
